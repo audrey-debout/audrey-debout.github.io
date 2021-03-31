@@ -1,1 +1,47 @@
-h1 { color: red;}
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Syne+Mono&display=swap');
+
+body{
+  margin: 0px;
+}
+
+h1 {
+  font-family: "Syne Mono";
+}
+
+h2, h3, h4, h5, p{
+  font-family: "Nunito";
+}
+
+.hero {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  background-color: grey;
+  height:65vh;
+  background-image: url('https://www.xmple.com/wallpaper/linear-blue-green-gradient-5120x2880-c2-90ee90-00ced1-a-195-f-14.svg');
+  background-size: cover;
+}
+
+
+.border-white{
+  border: 2px solid white;
+}
+
+.card {
+    margin: 40px;
+    padding: 20px;
+    border-radius: 16px;
+    background-color: blue;
+    z-index: 2;
+    background: #6ddccf;
+    top: -3em;
+    position: relative;
+}
+
+a {
+  cursor: pointer;
+}
+

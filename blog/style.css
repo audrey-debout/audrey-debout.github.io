@@ -1,1 +1,58 @@
-h1 { color: red;}
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Raleway:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+body{
+  margin:0px;
+  background-color:#a1cae2;
+}
+
+h1{color:white;
+text-align:center;
+font-family: 'Poppins', sans-serif;}
+
+h2{color:#1a508b;
+  text-align:center;
+}
+
+h3{color:black;
+text-align:left;
+font-family: 'Oswald', sans-serif;}
+
+h2, p, li {font-family: 'Raleway', sans-serif;}
+
+.hero{
+  height: 55vh;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://ecomnews.fr/phototheque/wl/x,qid=TSqU4CU8NKpB7BAFDDCcUI6DcS6tFGM9.pagespeed.ic.cRu6i_JMOI.jpg");
+  background-size: cover;
+}
+
+.exemple1 h1{
+  background-color: Black;
+  padding: 8px;
+}
+
+.card {
+    margin: 40px;
+    padding: 20px;
+    border-radius: 16px;
+    background-color: white;
+    z-index: 2;
+    background: #faf3e0;
+    top: -3em;
+    position: relative;
+}
+
+.card:hover{
+  box-shadow: 11px 13px 0px rgb(0 0 0 / 10%);
+}
+
+.center{
+  text-align: center;
+}
