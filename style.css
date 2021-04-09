@@ -1,1 +1,54 @@
-h1 { color: red;}
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Raleway:wght@300&display=swap');
+
+body{
+  background-color: #9ddfd3;
+}
+
+h1{
+  font-family: "Oswald";
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+h2{color:#4a47a3;
+  text-align:center;
+  font-size: 21px;
+}
+
+h3 {text-align:center;
+}
+
+h2, h3, p, ul, li {font-family: 'Raleway', sans-serif;}
+
+i {
+  opacity: 0.7;
+}
+
+input {
+  border-radius: 4px;
+  color: grey;
+  padding: 4px 8px;
+}
+
+a{ 
+  display: inline-block;
+}
+
+.container{
+  padding: 0px 10%;
+  margin: 0px auto;
+  box-shadow: 11px 13px 0px rgb(0 0 0 / 10%);
+}
+
+.btn{
+  background-color: #4a47a3;
+  color: white;
+  padding: 10px;
+  border-radius: 6px;
+  font-family: 'Raleway', sans-serif;
+  cursor: pointer;
+  font-size: 20px;
+}
